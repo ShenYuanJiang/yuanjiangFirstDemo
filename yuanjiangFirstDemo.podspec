@@ -2,11 +2,11 @@
 Pod::Spec.new do |s|
 
   s.name         = "yuanjiangFirstDemo"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "this is my first demo"
 
   s.description  = <<-DESC
-                       my name is shenyuanjiang
+                        my name is shenyuanjiang;
                    DESC
 
   s.homepage     = "https://github.com/bestjiangbeatyou/yuanjiangFirstDemo"
@@ -19,8 +19,8 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"
   s.ios.deployment_target = "8.0"
 
-  s.source       = { :git => "https://github.com/bestjiangbeatyou/yuanjiangFirstDemo.git", :tag => "1.0.0" }
+  s.source       = { :git => "https://github.com/bestjiangbeatyou/yuanjiangFirstDemo.git", :tag => s.version }
 
-s.source_files  = "yuanjiangFirstDemo/HHHHHHH/*.{h,m}"
+s.source_files  = "HHHHHHH.{h,m}"
 
 end
