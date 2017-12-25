@@ -21,6 +21,6 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/bestjiangbeatyou/yuanjiangFirstDemo.git", :tag => "1.0.0" }
 
-s.source_files  = "HHHHHHH/*.{h,m}"
+s.source_files  = "yuanjiangFirstDemo/HHHHHHH/*.{h,m}"
 
 end
